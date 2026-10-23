@@ -1,0 +1,68 @@
+{
+  "document_type": "receipt",
+  "confidence": 0.953,
+  "fields": {
+    "hospital_name": {
+      "value": "Riverside General Hospital",
+      "confidence": 0.98
+    },
+    "patient_name": {
+      "value": "Daniel Tan Wei Ming",
+      "confidence": 0.97
+    },
+    "date": {
+      "value": "2024-03-14",
+      "confidence": 0.86
+    },
+    "items": {
+      "value": [
+        {
+          "description": "Specialist Consultation - Cardiology",
+          "quantity": 1.0,
+          "unit_price": 180.0,
+          "total": 180.0
+        },
+        {
+          "description": "Electrocardiogram (ECG), 12-lead",
+          "quantity": 1.0,
+          "unit_price": 95.0,
+          "total": 95.0
+        },
+        {
+          "description": "Transthoracic Echocardiogram",
+          "quantity": 1.0,
+          "unit_price": 520.0,
+          "total": 520.0
+        },
+        {
+          "description": "Full Blood Count",
+          "quantity": 1.0,
+          "unit_price": 38.5,
+          "total": 38.5
+        },
+        {
+          "description": "Lipid Panel",
+          "quantity": 1.0,
+          "unit_price": 62.0,
+          "total": 62.0
+        },
+        {
+          "description": "Atorvastatin 20 mg tablet",
+          "quantity": 30.0,
+          "unit_price": 1.2,
+          "total": 36.0
+        }
+      ],
+      "confidence": 0.84
+    },
+    "grand_total": {
+      "value": 931.5,
+      "confidence": 0.97
+    },
+    "payment_method": {
+      "value": "Credit Card (VISA **** 4821)",
+      "confidence": 0.96
+    }
+  },
+  "validation_errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "document_type": "discharge_summary",
+  "confidence": 0.963,
+  "fields": {
+    "hospital_name": {
+      "value": "BỆNH VIỆN ĐA KHOA LAM GIANG",
+      "confidence": 0.98
+    },
+    "patient_name": {
+      "value": "PHẠM QUỐC BẢO",
+      "confidence": 0.97
+    },
+    "admission_date": {
+      "value": "2024-03-11",
+      "confidence": 0.97
+    },
+    "discharge_date": {
+      "value": "2024-03-18",
+      "confidence": 0.97
+    },
+    "diagnosis": {
+      "value": {
+        "primary": "Viêm ruột thừa cấp (K35.8)",
+        "secondary": [
+          "Thiếu máu nhẹ (D64.9)"
+        ]
+      },
+      "confidence": 0.84
+    },
+    "procedures_performed": {
+      "value": [
+        "Phẫu thuật nội soi cắt ruột thừa ngày 11/03/2024",
+        "kháng sinh, giảm đau, truyền dịch"
+      ],
+      "confidence": 0.84
+    },
+    "attending_physician": {
+      "value": null,
+      "confidence": 0.05
+    },
+    "discharge_instructions": {
+      "value": "Tái khám sau 7 ngày tại Phòng khám Ngoại. Cắt chỉ vết mổ sau 7–10 ngày. Kiêng vận động mạnh trong 4 tuần. Đến viện ngay nếu sốt, đau bụng tăng hoặc vết mổ chảy dịch.",
+      "confidence": 0.96
+    }
+  },
+  "validation_errors": [
+    {
+      "field": "attending_physician",
+      "code": "role_mismatch",
+      "message": "'BS.CKII Lương Văn Thịnh' is labelled with a different role in the document; the field was set to null",
+      "severity": "warning"
+    }
+  ]
+}

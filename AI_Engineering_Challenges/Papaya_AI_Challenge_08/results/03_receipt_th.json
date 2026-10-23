@@ -1,0 +1,56 @@
+{
+  "document_type": "receipt",
+  "confidence": 0.953,
+  "fields": {
+    "hospital_name": {
+      "value": "ร้านยาเภสัชสุขใจ",
+      "confidence": 0.98
+    },
+    "patient_name": {
+      "value": "พิมพ์ชนก ศรีสุข",
+      "confidence": 0.97
+    },
+    "date": {
+      "value": "2024-03-22",
+      "confidence": 0.72
+    },
+    "items": {
+      "value": [
+        {
+          "description": "พาราเซตามอล ๕๐๐ มก. (เม็ด)",
+          "quantity": 20.0,
+          "unit_price": 1.5,
+          "total": 30.0
+        },
+        {
+          "description": "อะม็อกซีซิลลิน ๕๐๐ มก. (แคปซูล)",
+          "quantity": 21.0,
+          "unit_price": 4.0,
+          "total": 84.0
+        },
+        {
+          "description": "ยาน้ำแก้ไอ บรอมเฮกซีน ๖๐ มล.",
+          "quantity": 1.0,
+          "unit_price": 65.0,
+          "total": 65.0
+        },
+        {
+          "description": "ผงเกลือแร่ โอ.อาร์.เอส. (ซอง)",
+          "quantity": 5.0,
+          "unit_price": 8.0,
+          "total": 40.0
+        }
+      ],
+      "confidence": 0.84
+    },
+    "grand_total": {
+      "value": 219.0,
+      "confidence": 0.97
+    },
+    "payment_method": {
+      "value": "เงินสด",
+      "confidence": 0.96
+    }
+  },
+  "validation_errors": []
+}
